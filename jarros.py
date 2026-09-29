@@ -1,5 +1,4 @@
 # Arquivo: jarros.py
-# Exercício 4: problema dos dois jarros (4 litros e 3 litros) formulado com os cinco componentes.
 
 CAP_4 = 4
 CAP_3 = 3

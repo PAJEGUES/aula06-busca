@@ -1,5 +1,4 @@
 # Arquivo: missionarios.py
-# Exercício 5: missionários e canibais.
 # Estado: (missionários na margem esquerda, canibais na margem esquerda, lado do barco)
 # Barco 'E' = margem esquerda, 'D' = margem direita.
 
@@ -72,10 +71,10 @@ if __name__ == '__main__':
     estados, arestas = espaco_de_estados(estado_inicial)
 
     print(f'Combinações possíveis (4 x 4 x 2): {len(todos)}')
-    print(f'Estados válidos (ninguém é devorado): {len(validos)}')
+    print(f'Estados válidos: {len(validos)}')
     print(f'Estados alcançáveis a partir de (3, 3, E): {len(estados)}')
 
-    print('\nEspaço de estados (cada linha é uma aresta, ida e volta aparecem):')
+    print('\nEspaço de estados:')
     for origem, acao, destino in arestas:
         print(f'{origem} --{acao}--> {destino}')
 
